@@ -31,8 +31,7 @@ COMPONENT_SRCDIRS := . \
                   src/extra/widgets/tileview \
                   src/extra/widgets/chart \
                   src/extra/widgets/meter \
-                  examples/widgets/img \
-                  examples/assets \
+                  examples/widgets/label \
                   src/extra/widgets/win
 
 CFLAGS += -DLV_LVGL_H_INCLUDE_SIMPLE

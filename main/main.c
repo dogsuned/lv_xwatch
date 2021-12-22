@@ -174,8 +174,8 @@ static void guiTask(void *pvParameter) {
 
     /* Create the demo application */
     // create_demo_application();
-    lv_xwatch_main();
-    // lv_example_img_3();
+    // lv_xwatch_main();
+    lv_example_label_1();
 
     while (1) {
         /* Delay 1 tick (assumes FreeRTOS tick is 10ms */
