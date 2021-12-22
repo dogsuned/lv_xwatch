@@ -1419,7 +1419,7 @@ e.g. "stm32f769xx.h" or "stm32f429xx.h"*/
 #  ifdef CONFIG_LV_THEME_DEFAULT_DARK
 #    define LV_THEME_DEFAULT_DARK CONFIG_LV_THEME_DEFAULT_DARK
 #  else
-#    define  LV_THEME_DEFAULT_DARK     0
+#    define  LV_THEME_DEFAULT_DARK     1
 #  endif
 #endif
 

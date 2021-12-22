@@ -90,7 +90,7 @@ static void lv_page_main(lv_page_t *main_page)
 
     lv_obj_set_size(main_page->obj, 240, 240);
     lv_obj_align(main_page->obj, LV_ALIGN_CENTER, 0, 0);
-    lv_obj_set_style_opa(main_page->obj, LV_OPA_60, 0);
+    lv_obj_set_style_opa(main_page->obj, LV_OPA_100, 0);
     lv_img_set_src(main_page->obj, &img_main_desktop_star);
 
     lv_obj_t *con = lv_obj_create(main_page->obj);
