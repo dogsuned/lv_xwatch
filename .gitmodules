@@ -1,0 +1,3 @@
+[submodule "components/lv_qrcode"]
+	path = components/lv_qrcode
+	url = git@github.com:dogsuned/lv_lib_qrcode.git
